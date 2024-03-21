@@ -10,7 +10,7 @@ pipeline {
         // cloning the git repo
         stage('Checkout') {
             steps {
-                git :'https://github.com/Meet2908/-DOCKER-MEET.git'
+                git 'https://github.com/Meet2908/-DOCKER-MEET.git'
             }
         }
         // building the docker image, 
